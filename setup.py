@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-    Setup for flask-bluelogin
+    Setup for flask-logsocketio
 """
 
 import os
 from setuptools import setup, find_packages
 
-import flask_bluelogin as mypkg
+import flask_logsocketio as mypkg
 
 NAME = mypkg.__namepkg__
 VERSION = mypkg.__version__
