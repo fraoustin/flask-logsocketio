@@ -35,8 +35,8 @@ class SocketIoHandler(Handler):
 
 class LogSocketIo(Blueprint):
 
-    def __init__(self, name='logsocketio', import_name=__name__, ui_testing=False, level=NOTSET, *args, **kwargs):
-        Blueprint.__init__(self, name, import_name, *args, **kwargs)
+    def __init__(self, name='logsocketio', import_name=__name__, ui_testing=False, url_prefix="", level=NOTSET, *args, **kwargs):
+        Blueprint.__init__(self, name, import_name, url_prefix=url_prefix, *args, **kwargs)
         self._level = level
         if ui_testing:
             self.add_url_rule('/ui/<path:filename>', 'static_web', static_web)
