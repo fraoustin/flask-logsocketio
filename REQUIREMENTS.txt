@@ -1,2 +1,2 @@
-flask
-flask-socketio
+Flask>=0.9
+Flask-SocketIO>=2.9.2
