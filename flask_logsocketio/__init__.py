@@ -5,7 +5,7 @@
     Module flask_logsocketio
 """
 
-__version_info__ = (0, 1, 2)
+__version_info__ = (0, 1, 4)
 __version__ = '.'.join([str(val) for val in __version_info__])
 
 __namepkg__ = "flask-logsocketio"

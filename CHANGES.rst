@@ -1,6 +1,11 @@
 Feature
 =======
 
+V. 0.1.4
+========
+
+- hotfix requirement
+
 V. 0.1.1
 ========
 
