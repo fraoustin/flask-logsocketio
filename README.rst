@@ -10,6 +10,7 @@ Installation
 
 ::
 
+    pip install Flask-SocketIO
     pip install flask-logsocketio
         
 Or
@@ -26,7 +27,7 @@ Usage
 ::
     
     from flask import Flask, request, current_app
-    from flask_logsocketio import LogSocketIO
+    from flask_logsocketio import LogSocketIo
 
     app = Flask(__name__)
     app.secret_key = 'super secret string'
