@@ -41,3 +41,10 @@ Usage
 
     if __name__ == "__main__":
         app.run(port=8080)
+
+
+You can test http://127.0.0.1:8080/ and view log in http://127.0.0.1:8080/ui
+
+.. image:: https://github.com/fraoustin/flask-logsocketio/blob/master/ui.png
+    :alt: ui
+    :align: center
